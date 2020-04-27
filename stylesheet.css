@@ -67,7 +67,7 @@ BAGIAN-EXTRA-1
 }
 
 .heading {
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 30px;
   color: #5f5d60;
 }
@@ -173,4 +173,67 @@ p {
 .img-gambar:hover {
 	box-shadow:0 0 2px 1px rgba(0, 140, 188,0.5);
 
+}
+/*
+BAGIAN-EXTRA-3
+*/
+.extra_tiga {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+}
+.heading-form {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #5f5d60;
+    border-bottom: 1px solid #eee;
+}
+
+.heading-form h2{
+  margin-bottom:30px;
+  font-family: arial;
+}
+
+.heading-form h3 {
+  font-weight: normal;
+}
+
+.contact-form {
+    padding: 20px 10px;
+}
+
+.contact-form p {
+  font-family: arial;
+}
+
+.form {
+    width:400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #dee7ec;
+}
+
+textarea {
+  width:400px;
+  margin-top: 10px;
+  margin-bottom:0px;
+  padding: 30px;
+  font-size: 15px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit{
+    background-color:#dee7ec;
+    color:#889eab;
+    width:100px;
+    margin: 40px 0px; 
+    padding: 10px;
+    border-radius: 5px;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
