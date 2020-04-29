@@ -1,48 +1,58 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .bag_utama h1 {
-    font-size: 32px;
-  }
-  .heading h2{
-    font-size: 20px;
-  }
-  .biodata {
-    width: 50%;
-    margin-bottom: 50px;
-  }
+.header {
+  right:8px;
+  height: 35px;
+  width:100%;
+ 
+}
+
+.header-kanan a {
+  margin-top:0px;
+  line-height: 35px;
+  padding: 0 3px;
+ }
+.logo {
+	height:35px;
+}
+/* bagian utama*/
+
+.head-slider { 
+	margin:30px;
+	width: 430px;
+	
+}
+ 
+.isi-slider img { 
+width:430px;	
+}
+
+.extra_satu {
+  height:350px;
+}
+.biodata {
+    width: 18%;
+}
+
+.BAGIAN-EXTRA-2 {
+	height:1000px;
+	background-position: center;
+}
+.img-gambar {
+	padding:5px;
+	height:100px;
+	width:100px;
+	}
+
+ 
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-  
-  .menu-icon {
-    display: block;
-  } 
-  .btn {
-    width: 100%;
-  }
-   
-  .bag_utama {
-    text-align: left;
-  }
-  .bag_utama h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .bag_utama p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .biodata {
-    width:100%;
-  }
-  .extra_dua {
-    width: 100%;
-  }
-  footer {
-    text-align: center;
-  }
+.header-kanan {
+	display: none;
 }
+	
+.menu-icon{
+    display:block;
+  }
